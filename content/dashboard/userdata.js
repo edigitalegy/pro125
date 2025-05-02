@@ -30,7 +30,6 @@ function learneradmin() {
               <th>اسم المستخدم</th>
               <th>المجموعة</th>  
               <th>كلمة المرور</th>
-              <th>التاريخ والوقت</th>
               <th>إجراء</th>  
             </tr>
           </thead>
