@@ -58,7 +58,6 @@ function learneradmin() {
           <td>${data.user || "غير متوفر"}</td>
           <td>${data.group || "غير متوفر"}</td>  
           <td>${data.password || "غير متوفر"}</td>
-          <td>${createdAt}</td>
           <td class="d-flex flex-column gap-2"> 
             <button class="btn btn-warning btn-sm w-100" 
               onclick="openEditUserModal('${docId}', decodeURIComponent('${name}'), decodeURIComponent('${email}'), decodeURIComponent('${user}'), decodeURIComponent('${group}'), decodeURIComponent('${password}'))">
